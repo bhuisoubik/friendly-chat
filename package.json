@@ -1,0 +1,21 @@
+{
+  "name": "friendly-chat",
+  "version": "1.0.0",
+  "description": "My implementation of Friendly Chat from Google Codelab. Made with Firebase, MuiCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soubikbhuiwk007/friendly-chat"
+  },
+  "keywords": [
+    "chat",
+    "firebase",
+    "codelabs",
+    "google-codelabs"
+  ],
+  "author": "Soubik Bhui",
+  "license": "MIT"
+}

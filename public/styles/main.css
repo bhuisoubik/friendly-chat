@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+#header {
+    background-color: #008cd0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#div-head {
+    display: flex;
+}
+
+#logo {
+    margin-left: 1pc;
+}
+
+#header #title {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-left: 0.6pc;
+    margin-top: 0.6pc;
+    color: white;
+}
+
+#userpic {
+    border-radius: 40px;
+    margin-right: 1pc;
+    margin-top: 0.7pc;
+}
+
+#sign {
+    display: flex;
+}
+
+.btn-sign {
+    margin-top: 0.9pc;
+    margin-bottom: 1pc;
+    justify-self: flex-end;
+    border-radius: 7px;
+    border: none;
+    float: right;
+    margin-right: 1pc;
+    margin-left: 1pc;
+}
+
+#chat-panel {
+    width: 100vw;
+    height: 89.3vh;
+    overflow: hidden;
+}
+
+#chat-panel #message-box::-webkit-scrollbar {
+    display: none;
+}
+
+
+#chat-panel #message-box {
+    height: 90%;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#chat-panel #message-box .msg-recieve {
+    width: 14pc;
+    padding-left: 1pc;
+    padding-right: 1pc;
+    padding-top: 0.5pc;
+    padding-bottom: 0.5pc;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    color: white;
+    font-family: 'Open Sans';
+    background-image: linear-gradient(to bottom right, #168fe0, #2ab2eb);
+    overflow-x: hidden;
+    margin-bottom: 1pc;
+
+}
+
+#chat-panel #message-box .msg-recieve div {
+    display: flex;
+    margin-bottom: 0.7pc;
+}
+
+#chat-panel #message-box .msg-recieve div h4 {
+    margin-left: 0.5pc;
+    margin-top: 0.25pc;
+}
+
+#chat-panel #message-box .msg-recieve div img {
+    border-radius: 40px;
+}
+
+#chat-panel #message-box .msg-recieve p {
+    word-wrap: break-word;
+    margin-left: 0.7pc;
+}
+
+#chat-panel #message-box .msg-send {
+    width: 14pc;
+    padding-left: 1pc;
+    padding-right: 1pc;
+    padding-top: 0.5pc;
+    padding-bottom: 0.5pc;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    color: white;
+    font-family: 'Open Sans';
+    background-color: rgba(8, 8, 8, 0.336);
+    overflow-x: hidden;
+    margin-left: 101pc;
+    margin-bottom: 1pc;
+}
+
+#chat-panel #message-box .msg-send div {
+    display: flex;
+    margin-bottom: 0.7pc;
+}
+
+#chat-panel #message-box .msg-send div h4 {
+    margin-left: 0.5pc;
+    margin-top: 0.25pc;
+}
+
+#chat-panel #message-box .msg-send div img {
+    border-radius: 40px;
+}
+
+#chat-panel #message-box .msg-send p {
+    word-wrap: break-word;
+    margin-left: 0.7pc;
+}
+
+#chat-panel #input {
+    padding-left: 1pc;
+    padding-right: 1pc;
+    margin-top: 1pc;
+    display: grid;
+    grid-template-columns: auto 10% 4%;
+}
+
+#chat-panel #input button {
+    border-radius: 5px;
+}
+
+#chat-panel #input #btn-send {
+    margin-left: 2pc;
+}
+
+#image-form #btn-send-image {
+    background-color: rgb(255, 230, 0);
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+    background-size: 2.5pc 2pc;
+    background-position: center center;
+    margin-right: 2pc;
+    width: 2pc;
+    float: right;
+    margin-top: -6pc;
+}
