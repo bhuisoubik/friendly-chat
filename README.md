@@ -7,9 +7,9 @@ Made with **[Firebase](firebase.google.com)**, **[MuiCSS](https://www.muicss.com
 ![](public/images/view.png)
 
 ### Checkout
-[https://friendlychat-a5452.web.app](https://friendlychat-a5452.web.app/)
+[friendlychat-a5452.web.app](https://friendlychat-a5452.web.app/)
 
-[https://friendlychat-a5452.firebaseapp.com](https://friendlychat-a5452.firebaseapp.com/)
+[friendlychat-a5452.firebaseapp.com](https://friendlychat-a5452.firebaseapp.com/)
 
 ## License
 **[MIT](LICENSE)**
