@@ -4,7 +4,7 @@ My implementation of Friendly Chat App from **[Google CodeLabs](https://firebase
 
 Made with **[Firebase](firebase.google.com)**, **[MuiCSS](https://www.muicss.com/)**
 
-![](public/images/view.png)
+![view](public/images/view.png)
 
 ### Checkout
 [friendlychat-a5452.web.app](https://friendlychat-a5452.web.app/)
